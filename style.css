@@ -1,0 +1,72 @@
+/* ----------------------------------------- 
+                Topo do site 
+-----------------------------------------*/
+.site-topo {
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: end;
+}
+
+.profile-container {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.profile-container:hover {
+    background-color: rgb(68, 68, 68);
+}
+
+.profile-container:active {
+    background-color: rgb(100, 100, 100);
+}
+
+.profile-container i {
+    font-size: 20px;
+}
+
+.logout-container {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.logout-container:hover {
+    background-color: rgb(68, 68, 68);
+}
+
+.logout-container:active {
+    background-color: rgb(100, 100, 100);
+}
+
+.accordion-button {
+    gap: 10px;
+}
+
+.accordion-body {
+    padding: 0;
+}
+
+.list-itens {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.item {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.item:hover {
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
