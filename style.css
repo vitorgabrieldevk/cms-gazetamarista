@@ -48,6 +48,50 @@
     background-color: rgb(100, 100, 100);
 }
 
+
+
+
+
+
+/* ----------------------------------------- 
+                Corpo do site 
+-----------------------------------------*/
+
+.site-corpo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion {
+    width: 60%;
+}
+
+.dashboard-container {
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 700px) {
+    .site-corpo {
+        flex-direction: column;
+    }
+
+    .accordion {
+        width: 100%;
+    }
+    
+    .dashboard-container {
+        width: 100%;
+    }
+}
+
+#myPieChart {
+    width: 100%;
+    height: auto;
+}
+
 .accordion-button {
     gap: 10px;
 }
@@ -61,12 +105,19 @@
     padding-left: 0;
 }
 
-.item {
+.list-group-item {
     padding: 10px 20px;
     border-bottom: 1px solid rgb(231, 231, 231);
+    padding-left: 30px;
+    transition: .33s;
 }
 
-.item:hover {
+.list-group-item:hover {
     background-color: rgb(238, 238, 238);
     cursor: pointer;
+    padding-left: 40px;
+}
+
+.list-link {
+    text-decoration: none;
 }
